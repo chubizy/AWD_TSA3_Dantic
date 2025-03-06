@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="assets\css\style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="UpperNavigation">
+            <div class="rig">
+                <section class="navi"><img src="assets\img\Screenshot 2025-03-06 181558.png" alt=""></section>
+                <section class="navig">Calculator</section>
+            </div>
+
+        <div class="lef">
+            <section class="nav">–</section>
+            <section class="nav">□</section>
+            <section class="nav">×</section>
+        </div>
+        </div>
+
+        <div class="display" id="display"></div>
+        <div class="buttons">
+            <button class="btn" onclick="appendToDisplay('%')">%</button>
+            <button class="btn" onclick="appendToDisplay('/')">/</button>
+            <button class="btn" onclick="clearDisplay()">C</button>
+            <button class="btn" onclick="backspace()">⌫</button>
+            <button class="btn" onclick="appendToDisplay('')">⅟𝑥</button>
+            <button class="btn" onclick="appendToDisplay('')">²√</button>
+            <button class="btn" onclick="appendToDisplay('')">𝑥²</button>
+            <button class="btn" onclick="appendToDisplay('÷')">÷</button>
+            <button class="btnNum" onclick="appendToDisplay('7')">7</button>
+            <button class="btnNum" onclick="appendToDisplay('8')">8</button>
+            <button class="btnNum" onclick="appendToDisplay('9')">9</button>
+            <button class="btn" onclick="appendToDisplay('*')">×</button>
+            <button class="btnNum" onclick="appendToDisplay('4')">4</button>
+            <button class="btnNum" onclick="appendToDisplay('5')">5</button>
+            <button class="btnNum" onclick="appendToDisplay('6')">6</button>
+            <button class="btn" onclick="appendToDisplay('-')">-</button>
+            <button class="btnNum" onclick="appendToDisplay('1')">1</button>
+            <button class="btnNum" onclick="appendToDisplay('2')">2</button>
+            <button class="btnNum" onclick="appendToDisplay('3')">3</button>
+            <button class="btn" onclick="appendToDisplay('+')">+</button>
+            <button class="btnNum" onclick="appendToDisplay('±')">±</button>
+            <button class="btnNum" onclick="appendToDisplay('0')">0</button>
+            <button class="btnNum" onclick="appendToDisplay('.')">.</button>
+            <button class="btnREs" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+    <script src="assets\js\script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    
+}
+
+.UpperNavigation {
+    display: flex;
+    justify-content: space-between;
+    color: #ccc;
+
+}
+
+.rig {
+    display: flex;
+
+}
+
+.navi {
+    display: flex;
+    height: 15px;
+    
+}
+
+img {
+    border-radius: 2px;
+  }
+
+.navig {
+    display: flex;
+    margin-left: 0.5rem;
+    font-size: 13px;
+}
+
+.lef {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #1a2324;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: #1a2324;
+    text-align: right;
+    height: 2rem;
+    color: #ccc;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 5fr);
+    gap: 3px;
+}
+
+.btn {
+    padding: 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #2d3437;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnNum {
+    padding: 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #363e3c;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2d3437;
+}
